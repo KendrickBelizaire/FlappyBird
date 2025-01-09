@@ -1,1 +1,87 @@
-Readme
+Flappy Bird Clone
+
+Overview
+
+This is a Java-based clone of the popular game Flappy Bird. The game was built using Java and runs as a standalone desktop application. The objective of the game is to navigate a bird through gaps between pipes without colliding with them. This project was developed in VSCode as part of a learning exercise to improve programming and game development skills.
+
+Features
+
+Player Control: The player can make the bird "flap" by pressing a key, causing it to jump.
+
+Obstacle Generation: Randomly generated pipes of varying heights create a challenging experience.
+
+Collision Detection: The game ends when the bird collides with a pipe or the ground.
+
+Score Tracking: A scoring system increases as the player successfully navigates through pipes.
+
+Simple Graphics: Basic 2D graphics for the bird, pipes, and background.
+
+Technologies Used
+
+Java: Core programming language for logic and game mechanics.
+
+Java AWT and Swing: For rendering graphics and handling user input.
+
+VSCode: Integrated Development Environment (IDE) used for writing and debugging the code.
+
+How to Run the Game
+
+Ensure you have Java JDK installed on your machine.
+
+Clone or download this repository to your local machine.
+
+Open the project in VSCode.
+
+Compile the code using the following command:
+
+javac Main.java
+
+Run the game with:
+
+java Main
+
+Follow the on-screen instructions to start playing.
+
+Gameplay Instructions
+
+Press the Spacebar to make the bird flap its wings and rise.
+
+Avoid colliding with the pipes or the ground.
+
+Navigate through the gaps in the pipes to increase your score.
+
+The game ends when the bird crashes. Your final score will be displayed.
+
+Project Structure
+
+Main.java: Contains the main game loop and entry point.
+
+Bird.java: Defines the bird's behavior and movement.
+
+Pipe.java: Handles the generation and movement of pipes.
+
+GamePanel.java: Manages the game's rendering and user input.
+
+Assets: (Optional) Includes graphics or sound files used in the game.
+
+Future Improvements
+
+Add background music and sound effects.
+
+Enhance graphics with animations and textures.
+
+Implement a restart feature after the game ends.
+
+Include a leaderboard to save high scores.
+
+Make the game mobile-friendly.
+
+Lessons Learned
+
+Improved understanding of Java's graphics libraries (AWT and Swing).
+
+Practiced object-oriented programming principles.
+
+Gained experience handling game loops and real-time user input.
+
+Learned how to structure a project for readability and maintainability.
